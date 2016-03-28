@@ -16,3 +16,6 @@ Functions as Objects in Scala: In Scala, a function is an object that can be ass
 
 20160325
 It is impossible to create a `scikit-learn` RandomForestClassifier without training data. When you build a model, `scikit-learn` allocates the data in the memory. Then it creates a `numpy.array` of the location of left child, right child, and etc., based on the memory location of the left child, right child, and etc.. This is all done in CPython in `scikit-learn`.
+
+20160328
+`matplotlib` has an option to draw xkcd-style plots!
