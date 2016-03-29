@@ -19,3 +19,6 @@ It is impossible to create a `scikit-learn` RandomForestClassifier without train
 
 20160328
 `matplotlib` has an option to draw xkcd-style plots!
+
+20160329
+Finding nth Fibonacci number with tail-recursion in scala: [link to code] (./scala/nth_Fibonacci.scala)
