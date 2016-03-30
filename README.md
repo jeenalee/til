@@ -22,3 +22,6 @@ It is impossible to create a `scikit-learn` RandomForestClassifier without train
 
 20160329
 Finding nth Fibonacci number with tail-recursion in scala: [link to code] (./scala/nth_Fibonacci.scala)
+
+20160330
+Checking if an array is sorted in scala: [link to code] (./scala/is_sorted.scala)
