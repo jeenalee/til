@@ -1,8 +1,9 @@
 def isSorted[A](as: Array[A], ordered: (A,A) => Boolean): Boolean = {
+  @annotation.tailred
   def loop(n: Int): Boolean =
     if (n+1 == as.length) true 
-    else if (ordered(as(n), as(n+1))) loop(n+1)
-    else false
+    else if ((ordered(as(n), as(n+1))) == false) false
+    else loop(n+1)
 
   loop(0)
 }
