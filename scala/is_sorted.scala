@@ -1,5 +1,5 @@
 def isSorted[A](as: Array[A], f: (A,A) => Boolean): Boolean = {
-  @annotation.tailred
+  @annotation.tailrec
   def loop(n: Int): Boolean =
     if (n+1 == as.length) true 
     else if ((f(as(n), as(n+1))) == false) false
