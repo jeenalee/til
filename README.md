@@ -24,7 +24,10 @@ It is impossible to create a `scikit-learn` RandomForestClassifier without train
 Tail-recursion in scala: Tail-recursive function ends by calling itself. [Finding nth Fibonacci number with tail-recursion in scala] (./scala/nth_Fibonacci.scala)
 
 20160330
-Polymorphic functions in scala: Polymorphic function is a so called generic function. It doesn't rely on parameters of with specific types. [Checking if an array is sorted in scala] (./scala/is_sorted.scala)
+Parametric polymorphic functions in scala: Polymorphic function is a so called generic function. It doesn't rely on parameters of with specific types. [Checking if an array is sorted in scala] (./scala/is_sorted.scala)
 
 20160331
 [Currying] (https://en.wikipedia.org/wiki/Currying): The way I understood currying is that you transform a function that takes > 1 parameters `f(a, b) = c` to a series of functions with only one parameter: `g(f(a)) = c, where f(a) = b`. The advantage is that each function becomes highly specialized, which can be reused in other situations, allowing the programmer to mix-and-match functions more easily. [This] (http://stackoverflow.com/questions/36314/what-is-currying) is another good explanation. [This] (./scala/currying_implementation.scala) is the implementation of concepts related to currying in scala.
+
+20160404
+[Django Girls Tutorial] (http://tutorial.djangogirls.org/en/): Today, I finished the Django Girls Tutotrial. Django is pretty awesome! I thought it was really cool how everything (i.e. `blog_post`) becomes an object with attributes (i.e. `blog_post.author`). I can't wait to make more webapps based on Django.
