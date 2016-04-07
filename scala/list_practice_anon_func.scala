@@ -22,13 +22,22 @@ def foldRight[A, B](as: List[A], z: B)(f: (A, B) => B): B =
 // Cons.
 def sum(ns: List[Int]) =
   foldRight(ns, 0)((x, y) => x + y)
+//              ^   ^  ^     ^-- Adds x to y. See next line.
+//              `   `  `
+//              `   `  `--- y will initially be 0 in the first iteration.
+//              `   `       Then it will be x + 0, then x' + x + 0, and so on.
+//              `   ` 
+//              `   `--- This is the head of a Cons.
+//              `
+//              `--- This will be fed as the parameter of the next function.
+//                   It will be annotated as y.
 
 // length finds the length of the list using foldRight.
 // It is similar to sum, but it ignores what the head of Cons is.
 def length[A](l: List[A]): Int =
   foldRight(l, 0)((_, acc) => acc + 1)
 //             ^       ^       ^-- Adds '1' to acc. See next line.
-//                     `
+//             `       `
 //             `       `--- 'acc' is the parameter fed from previous step.
 //             `             It will be '0' for the first iteration..
 //             `
