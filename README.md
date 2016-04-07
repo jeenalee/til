@@ -38,3 +38,6 @@ Parametric polymorphic functions in scala: Polymorphic function is a so called g
 - `views`: Defines whatever action you want to do on the models (or data). It is like Python functions for models. This can be retrieving data, presenting data, or modifying data. It also gives the appropriate html page (template) for each view.
 - `urls`: Stores which url each view is linked to. This is kind of like an address book keeps the resulting url of a view, sort of like an address and a person's name.
 - `templates`: Stores the html pages. If `urls` gave you the address, `templates` describes what the house looks like for a given address, so to speak.
+
+20150406
+[Rust: Ownership,](http://doc.rust-lang.org/stable/book/ownership.html)[ Borrowing, and Lifetimes](http://doc.rust-lang.org/stable/book/references-and-borrowing.html): I attended a Rust Meetup on Rust's unique feature for memory safety. Before the meetup, I learned the basic [syntax of Rust] (http://rust-from-a-scripting-background.readthedocs.org/en/latest/). This was my first time learning about memory safety, and it was fun to think about something that I haven't spent much time worrying when programming.
