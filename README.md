@@ -45,3 +45,7 @@ Parametric polymorphic functions in scala: Polymorphic function is a so called g
 
 20150407
 Scala's underscore syntax can be confusing, especially in anonymous functions. I commented heavily on [my code](./scala/foldLeft.scala), explaining what the underscores are. Sometimes the first part of a function (i.e. `(h, t)` of `((h, t) => Cons(h, t))` can be omitted if using underscores and anonymous function, and just write the result of the function (i.e. `Cons(_, _)`).
+
+20150411
+[interactive-pretty-stuff] (https://github.com/jeenalee/interactive-pretty-stuff/): [fitzgen](https://github.com/fitzgen) and I paired up for making some interactive pretty stuff. We have a list of things we want to add to make it even prettier! Check it out [here](http://jeenalee.github.io/interactive-pretty-stuff/).
+[`gh-pages`] (https://help.github.com/articles/creating-project-pages-manually/) will display the project page of your repo. [Here](./github-tricks/gh-page.txt)) is an overview of creating the project page for Interactive-pretty-stuff.
