@@ -51,3 +51,6 @@ Scala's underscore syntax can be confusing, especially in anonymous functions. I
 [interactive-pretty-stuff] (https://github.com/jeenalee/interactive-pretty-stuff/): [fitzgen](https://github.com/fitzgen) and I paired up for making some interactive pretty stuff. We have a list of things we want to add to make it even prettier! Check it out [here](http://jeenalee.github.io/interactive-pretty-stuff/).
 
 [`gh-pages`] (https://help.github.com/articles/creating-project-pages-manually/) will display the project page of your repo. [Here](./github-tricks/gh-page.txt) is an overview of creating the project page for interactive-pretty-stuff.
+
+20150418
+[Parsing JSON in Python] (https://docs.python.org/2/library/json.html#json-to-py-table): Parsing JSON files is straightforward in Python. The `json` module converts the json data structure to Python dictionary objects.

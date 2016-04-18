@@ -19,6 +19,13 @@ def foldLeft[A, B](as: List[A], z: B)(f: (B, A) => B): B =
     case Cons(h, t) => foldLeft(t, f(z, h))(f) 
   }
 
+@annotation.tailrec
+def foldRight[A, B](as: List[A], z: B)(f: (A, B) => B): B =
+  as match {
+    case Nil => z
+    case Cons(x, xs) => f(x, foldRight(xs, z)(f))
+  }
+
 def left_sum(ns: List[Int]) =
   foldLeft(ns, 0)((s, h) => s + h)
 
@@ -46,3 +53,35 @@ def appendViaFoldRight[A](l: List[A], r: List[A]): List[A] =
 //             `~~ to be used as the parameter for the
 //                 following anon function.
 // If we wrote `foldRight(l, r)(Cons)` it won't work because `Cons` is not a function.
+
+
+// Exercise 3.16
+def addOne(ns: List[Int]): List[Int] =
+  foldRight(ns, List[Int]())((h, l) => Cons(h+1, l))
+
+def concat[A](l: List[List[A]]): List[A] =
+  foldRight(l, Nil:List[A])(append)
+
+// Exercise 3.17
+def switchToString(ns: List[Double]): List[String] =
+  foldRight(ns, List[String]())((h, l) => Cons(h.toString, l))
+
+// Exercise 3.18: not stack-safe
+def map[A, B](as: List[A])(f: A => B): List[B] =
+  foldRight(as, List[B]())((h, t) => Cons(f(h), t))
+
+// Exercise 3.19
+def filter[A](as: List[A])(f: A => Boolean): List[A] =
+  foldRight(as, List[A]())((h, t) => if (f(h)) Cons(h, t) else t)
+
+// Exercise 3.20
+def flatMap[A,B](l: List[A])(f: A => List[B]): List[B] =
+  concat(map(l)(f))
+
+// Exercise 3.21
+def flatMapFilter[A, B](as: List[A])(f: A => Boolean): List[B] =
+  flatMap(as)(a => if (f(a)) List(a) else Nil)
+
+// Exercise 3.22
+def addLists(la: List[Int], lb: List[Int]): List[Int] =
+
