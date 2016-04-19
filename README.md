@@ -52,5 +52,8 @@ Scala's underscore syntax can be confusing, especially in anonymous functions. I
 
 [`gh-pages`] (https://help.github.com/articles/creating-project-pages-manually/) will display the project page of your repo. [Here](./github-tricks/gh-page.txt) is an overview of creating the project page for interactive-pretty-stuff.
 
+20150416
+[Memoization] (https://en.wikipedia.org/wiki/Memoization): Memoization is a method to optimize computing time. Before it computes a step, it will look up a hashtable first. If the step had been calculated before, it will return the reviously computed value. If not, it will compute the step and add the value to the hash table, and return the value.
+
 20150418
 [Parsing JSON in Python] (https://docs.python.org/2/library/json.html#json-to-py-table): Parsing JSON files is straightforward in Python. The `json` module converts the json data structure to Python dictionary objects.
