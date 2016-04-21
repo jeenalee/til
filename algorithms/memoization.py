@@ -23,7 +23,6 @@ def calculate_edit_distance_memo(str1, str2, pos1, pos2, memo):
     
     # Check if the last character of the strings are identical. If
     # they are, move on to the next character.
-    
     elif str1[pos1-1] == str2[pos2-1]:
         result = calculate_edit_distance_memo(str1, str2, pos1-1, pos2-1, memo)
 
@@ -66,7 +65,6 @@ def calculate_edit_distance(str1, str2, pos1, pos2):
     
     # Check if the last character of the strings are identical. If
     # they are, move on to the next character.
-    
     elif str1[pos1-1] == str2[pos2-1]:
         result = calculate_edit_distance(str1, str2, pos1-1, pos2-1)
 
