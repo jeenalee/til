@@ -52,6 +52,9 @@ Scala's underscore syntax can be confusing, especially in anonymous functions. I
 
 [`gh-pages`] (https://help.github.com/articles/creating-project-pages-manually/) will display the project page of your repo. [Here](./github-tricks/gh-page.txt) is an overview of creating the project page for interactive-pretty-stuff.
 
+20150415
+[Edit Distance] (https://en.wikipedia.org/wiki/Edit_distance): Edit distance calculates the shortest distance to travel between two strings. This is widely used for spell check as Norvig [demonstrated] (http://norvig.com/spell-correct.html) so elegantly. Edit distance can be considered as the opposite of [Longest Common Substring] (https://en.wikipedia.org/wiki/Longest_common_substring_problem).
+
 20150416
 [Memoization] (https://en.wikipedia.org/wiki/Memoization): Memoization is a method to optimize computing time. Before it computes a step, it will look up a hashtable first. If the step had been calculated before, it will return the reviously computed value. If not, it will compute the step and add the value to the hash table, and return the value. [Here](./algorithms/memoization.py) is a sample script that will compute edit distance with and without memoization.
 
@@ -60,3 +63,9 @@ Scala's underscore syntax can be confusing, especially in anonymous functions. I
 
 20150421
 [Tail Recursion Elimination] (https://en.wikipedia.org/wiki/Tail_call): Tail recursion elimination makes sure that when a tail recursive function is called, it is implemented without adding a new stack frame to the call stack. In essence, the original stack frame would be used again and again, saving space in memory. Many functional programming languages, in which tail recursion is the core value, tail recursion elimination is guaranteed. However, [Python doesn't] (http://neopythonic.blogspot.com/2009/04/tail-recursion-elimination.html) support tail recursion elimination. This means that even if I were to implement my [Unbalanced Tree Set Algorithm] (https://github.com/jeenalee/set_algorithms/blob/master/unbalancedtree.py) iteratively, it will probably still hit the Python's recursion limit.
+
+20150425
+[Design Resources for Developers] (http://blog.planetargon.com/entries/2016/4/11/20-free-design-resources-for-developers): Some really easy to use resources for making pretty designs.
+
+20150426
+[`pandas.DataFrame.merge`](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.merge.html): `merge` is an amazing tool for merging different data tables. Focus on `how`, `left_on`/`right_on`, and `left_index`/`right_index`.
