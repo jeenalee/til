@@ -50,10 +50,10 @@ Scala's underscore syntax can be confusing, especially in anonymous functions. I
 20150411
 [interactive-pretty-stuff] (https://github.com/jeenalee/interactive-pretty-stuff/): [fitzgen](https://github.com/fitzgen) and I paired up for making some interactive pretty stuff. We have a list of things we want to add to make it even prettier! Check it out [here](http://jeenalee.github.io/interactive-pretty-stuff/).
 
-[`gh-pages`] (https://help.github.com/articles/creating-project-pages-manually/) will display the project page of your repo. [Here](./github-tricks/gh-page.md) is an overview of creating the project page for interactive-pretty-stuff.
+[`gh-pages`] (https://help.github.com/articles/creating-project-pages-manually/) will display the project page of your repo. [Here](./github_tricks/gh-page.md) is an overview of creating the project page for interactive-pretty-stuff.
 
 20150412
-Git Tutorial with PyLadies: Notes are [here] (./github-tricks/git_tutorial.md). I learned about branching, merging, and forking!
+Git Tutorial with PyLadies: Notes are [here] (./github_tricks/git_tutorial.md). I learned about branching, merging, and forking!
 
 20150415
 [Edit Distance] (https://en.wikipedia.org/wiki/Edit_distance): Edit distance calculates the shortest distance to travel between two strings. This is widely used for spell check as Norvig [demonstrated] (http://norvig.com/spell-correct.html) so elegantly. Edit distance can be considered as the opposite of [Longest Common Substring] (https://en.wikipedia.org/wiki/Longest_common_substring_problem). I implemented this algorithm in Python [here] (./algorithms/edit_distance.py).
