@@ -69,3 +69,6 @@ Scala's underscore syntax can be confusing, especially in anonymous functions. I
 
 20150426
 [`pandas.DataFrame.merge`](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.merge.html): `merge` is an amazing tool for merging different data tables. Focus on `how`, `left_on`/`right_on`, and `left_index`/`right_index`.
+
+20150427
+[Online/Incremental Machine Learning] (https://en.wikipedia.org/wiki/Online_machine_learning): Is your data so big that you cannot load all of it into your memory? Incremental Learning allows you to train the model with parts of data at a time. It updates the classifier as it receives more and more data. [`scikit-learn`](https://en.wikipedia.org/wiki/Online_machine_learning#Implementations) supports online ML for some classifiers. The supported models in Weka are listed [here] (http://weka.sourceforge.net/doc.dev/weka/classifiers/UpdateableClassifier.html).
