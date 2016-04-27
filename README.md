@@ -53,7 +53,7 @@ Scala's underscore syntax can be confusing, especially in anonymous functions. I
 [`gh-pages`] (https://help.github.com/articles/creating-project-pages-manually/) will display the project page of your repo. [Here](./github-tricks/gh-page.txt) is an overview of creating the project page for interactive-pretty-stuff.
 
 20150415
-[Edit Distance] (https://en.wikipedia.org/wiki/Edit_distance): Edit distance calculates the shortest distance to travel between two strings. This is widely used for spell check as Norvig [demonstrated] (http://norvig.com/spell-correct.html) so elegantly. Edit distance can be considered as the opposite of [Longest Common Substring] (https://en.wikipedia.org/wiki/Longest_common_substring_problem).
+[Edit Distance] (https://en.wikipedia.org/wiki/Edit_distance): Edit distance calculates the shortest distance to travel between two strings. This is widely used for spell check as Norvig [demonstrated] (http://norvig.com/spell-correct.html) so elegantly. Edit distance can be considered as the opposite of [Longest Common Substring] (https://en.wikipedia.org/wiki/Longest_common_substring_problem). I implemented this algorithm in Python [here] (./algorithms/edit_distance.py).
 
 20150416
 [Memoization] (https://en.wikipedia.org/wiki/Memoization): Memoization is a method to optimize computing time. Before it computes a step, it will look up a hashtable first. If the step had been calculated before, it will return the reviously computed value. If not, it will compute the step and add the value to the hash table, and return the value. [Here](./algorithms/memoization.py) is a sample script that will compute edit distance with and without memoization.
