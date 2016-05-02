@@ -75,3 +75,17 @@ Git Tutorial with PyLadies: Notes are [here] (./github_tricks/git_tutorial.md). 
 
 20150427
 [Online/Incremental Machine Learning] (https://en.wikipedia.org/wiki/Online_machine_learning): Is your data so big that you cannot load all of it into your memory? Incremental Learning allows you to train the model with parts of data at a time. It updates the classifier as it receives more and more data. [`scikit-learn`](https://en.wikipedia.org/wiki/Online_machine_learning#Implementations) supports online ML for some classifiers. The supported models in Weka are listed [here] (http://weka.sourceforge.net/doc.dev/weka/classifiers/UpdateableClassifier.html).
+
+20150502
+[Naive Bayes Classifier] (https://en.wikipedia.org/wiki/Naive_Bayes_classifier): I started reading about NBC because it is a classifier that can be trained incrementally. What is special about NBC that allows online training? Naive Bayes Classifier is a popular algorithm for filtering out spam emails. It is based on applying Bayes Theorem, which assumes independent relationship among predictors. For example, when classifying an apple, it will assume the size of the apple is independent of the color of the apple. The Bayes Theorem is:
+```
+          P(B|A)P(A)
+P(A|B) = ------------
+             P(B)
+```
+In other words:
+```
+                   P('money'|spam)P(spam)
+P(spam|'money') = -----------------------
+                         P('money')
+```
