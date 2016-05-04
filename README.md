@@ -89,3 +89,6 @@ In other words:
 P(spam|'money') = -----------------------
                          P('money')
 ```
+
+20150503
+[D3 bar graph] (http://jeenalee.github.io/d3-practice/): I followed Bostock's tutorial on making a bar graph. I visualized a very small portion of CCLE gene expression data.
