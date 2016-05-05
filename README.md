@@ -32,51 +32,51 @@ Parametric polymorphic functions in scala: Polymorphic function is a so called g
 20160404
 [Django Girls Tutorial] (http://tutorial.djangogirls.org/en/): Today, I finished the Django Girls Tutotrial. Django is pretty awesome! I thought it was really cool how everything (i.e. `blog_post`) becomes an object with attributes (i.e. `blog_post.author`). I can't wait to make more webapps based on Django.
 
-20150405
+20160405
 [Django's Django Tutorial] (https://docs.djangoproject.com/en/1.9/intro/tutorial01/): After this exercise, I think I have a better understanding of the 4 components of Django - `models`, `views`, `urls`, and `templates`. I probably am oversimplifying things, but below is how I understood.
 - `models`: Defines classes that will be used to represent your data. This will automatically generate the schema for storing the data in the database.
 - `views`: Defines whatever action you want to do on the models (or data). It is like Python functions for models. This can be retrieving data, presenting data, or modifying data. It also gives the appropriate html page (template) for each view.
 - `urls`: Stores which url each view is linked to. This is kind of like an address book keeps the resulting url of a view, sort of like an address and a person's name.
 - `templates`: Stores the html pages. If `urls` gave you the address, `templates` describes what the house looks like for a given address, so to speak.
 
-20150406
+20160406
 [Rust: Ownership,](http://doc.rust-lang.org/stable/book/ownership.html)[ Borrowing, and Lifetimes](http://doc.rust-lang.org/stable/book/references-and-borrowing.html): I attended a Rust Meetup on Rust's unique feature for memory safety. Before the meetup, I learned the basic [syntax of Rust] (http://rust-from-a-scripting-background.readthedocs.org/en/latest/). This was my first time learning about memory safety, and it was fun to think about something that I haven't spent much time worrying when programming.
 
 [Anonymous function in Scala using the underscore notation](./scala/list_practice_anon_func.scala): I wrote comments on the code so that I can remember how the parameters are passed around in anonymous functions.
 
-20150407
+20160407
 Scala's underscore syntax can be confusing, especially in anonymous functions. I commented heavily on [my code](./scala/foldLeft.scala), explaining what the underscores are. Sometimes the first part of a function (i.e. `(h, t)` of `((h, t) => Cons(h, t))` can be omitted if using underscores and anonymous function, and just write the result of the function (i.e. `Cons(_, _)`).
 
-20150411
+20160411
 [interactive-pretty-stuff] (https://github.com/jeenalee/interactive-pretty-stuff/): [fitzgen](https://github.com/fitzgen) and I paired up for making some interactive pretty stuff. We have a list of things we want to add to make it even prettier! Check it out [here](http://jeenalee.github.io/interactive-pretty-stuff/).
 
 [`gh-pages`] (https://help.github.com/articles/creating-project-pages-manually/) will display the project page of your repo. [Here](./github_tricks/gh-page.md) is an overview of creating the project page for interactive-pretty-stuff.
 
-20150412
+20160412
 Git Tutorial with PyLadies: Notes are [here] (./github_tricks/git_tutorial.md). I learned about branching, merging, and forking!
 
-20150415
+20160415
 [Edit Distance] (https://en.wikipedia.org/wiki/Edit_distance): Edit distance calculates the shortest distance to travel between two strings. This is widely used for spell check as Norvig [demonstrated] (http://norvig.com/spell-correct.html) so elegantly. Edit distance can be considered as the opposite of [Longest Common Substring] (https://en.wikipedia.org/wiki/Longest_common_substring_problem). I implemented this algorithm in Python [here] (./algorithms/edit_distance.py).
 
-20150416
+20160416
 [Memoization] (https://en.wikipedia.org/wiki/Memoization): Memoization is a method to optimize computing time. Before it computes a step, it will look up a hashtable first. If the step had been calculated before, it will return the reviously computed value. If not, it will compute the step and add the value to the hash table, and return the value. [Here](./algorithms/memoization.py) is a sample script that will compute edit distance with and without memoization.
 
-20150418
+20160418
 [Parsing JSON in Python] (https://docs.python.org/2/library/json.html#json-to-py-table): Parsing JSON files is straightforward in Python. The `json` module converts the json data structure to Python dictionary objects.
 
-20150421
+20160421
 [Tail Recursion Elimination] (https://en.wikipedia.org/wiki/Tail_call): Tail recursion elimination makes sure that when a tail recursive function is called, it is implemented without adding a new stack frame to the call stack. In essence, the original stack frame would be used again and again, saving space in memory. Many functional programming languages, in which tail recursion is the core value, tail recursion elimination is guaranteed. However, [Python doesn't] (http://neopythonic.blogspot.com/2009/04/tail-recursion-elimination.html) support tail recursion elimination. This means that even if I were to implement my [Unbalanced Tree Set Algorithm] (https://github.com/jeenalee/set_algorithms/blob/master/unbalancedtree.py) iteratively, it will probably still hit the Python's recursion limit.
 
-20150425
+20160425
 [Design Resources for Developers] (http://blog.planetargon.com/entries/2016/4/11/20-free-design-resources-for-developers): Some really easy to use resources for making pretty designs.
 
-20150426
+20160426
 [`pandas.DataFrame.merge`](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.merge.html): `merge` is an amazing tool for merging different data tables. Focus on `how`, `left_on`/`right_on`, and `left_index`/`right_index`.
 
-20150427
+20160427
 [Online/Incremental Machine Learning] (https://en.wikipedia.org/wiki/Online_machine_learning): Is your data so big that you cannot load all of it into your memory? Incremental Learning allows you to train the model with parts of data at a time. It updates the classifier as it receives more and more data. [`scikit-learn`](https://en.wikipedia.org/wiki/Online_machine_learning#Implementations) supports online ML for some classifiers. The supported models in Weka are listed [here] (http://weka.sourceforge.net/doc.dev/weka/classifiers/UpdateableClassifier.html).
 
-20150502
+20160502
 [Naive Bayes Classifier] (https://en.wikipedia.org/wiki/Naive_Bayes_classifier): I started reading about NBC because it is a classifier that can be trained incrementally. What is special about NBC that allows online training? Naive Bayes Classifier is a popular algorithm for filtering out spam emails. It is based on applying Bayes Theorem, which assumes independent relationship among predictors. For example, when classifying an apple, it will assume the size of the apple is independent of the color of the apple. The Bayes Theorem is:
 ```
           P(B|A)P(A)
@@ -90,5 +90,15 @@ P(spam|'money') = -----------------------
                          P('money')
 ```
 
-20150503
+20160503
 [D3 bar graph] (http://jeenalee.github.io/d3-practice/): I followed Bostock's tutorial on making a bar graph. I visualized a very small portion of CCLE gene expression data.
+
+20160505
+Treat your package like a package. After having `__init__.py`s in every directory, if you try to run your package in the command line (i.e. running a test suite from command line without 3rd party testing suite), you might get an error:
+```
+ValueError: Attempted relative import in non-package
+```
+If so, try the following:
+```
+python -m package.tests_dir.test_file
+```
