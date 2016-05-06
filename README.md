@@ -102,3 +102,7 @@ If so, try the following:
 ```
 python -m package.tests_dir.test_file
 ```
+
+20160506
+To install a Python library from github link:
+`pip install git+https://github.com/user/library.git`
