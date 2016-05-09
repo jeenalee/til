@@ -106,3 +106,6 @@ python -m package.tests_dir.test_file
 20160506
 To install a Python library from github link:
 `pip install git+https://github.com/user/library.git`
+
+20160509
+[Vector in Scala](http://docs.scala-lang.org/overviews/collections/performance-characteristics.html) has overall better performance than Scala's other data structures.
