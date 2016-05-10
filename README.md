@@ -108,4 +108,7 @@ To install a Python library from github link:
 `pip install git+https://github.com/user/library.git`
 
 20160509
-[Vector in Scala](http://docs.scala-lang.org/overviews/collections/performance-characteristics.html) has overall better performance than Scala's other data structures.
+[Vector in Scala](http://docs.scala-lang.org/overviews/collections/performance-characteristics.html) has overall better performance than Scala's other data structures, and is immutable.
+
+20160510
+`class` and `object` in Scala: `object` can be thought of as a singleton object of a `class`. In some ways, `object` can be thought of creating an anonymous `class`. While a `class` is a description of something, `object` is a special implementation of some `class`.
