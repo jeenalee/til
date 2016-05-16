@@ -112,3 +112,6 @@ To install a Python library from github link:
 
 20160510
 `class` and `object` in Scala: `object` can be thought of as a singleton object of a `class`. In some ways, `object` can be thought of creating an anonymous `class`. While a `class` is a description of something, `object` is a special implementation of some `class`.
+
+20160516
+For detecting edges in an image, use gradient orientation and magnitude.
