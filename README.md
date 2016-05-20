@@ -123,3 +123,9 @@ In the mathematical context, [gradient](https://en.wikipedia.org/wiki/Gradient) 
 For drawing scatter plot for categorical x values, use `ggplot.geom_jitter`. Example is [here](./R/geom_jitter.R).
 
 JSON understands double quotes only!
+
+20160519
+[How to install OpenCV with python binding](./random/opencv_py.sh).
+
+20160520
+[`git reset --soft`](./github_tricks/reset.md) `git reset --soft <commit | HEAD~ # of commits upstream of HEAD to undo>` allows you to rewrite the git history without deleting changes you made in your working directory. If you choose the option `--hard`, it will remove any changes you introduced since the last commit.
