@@ -117,7 +117,7 @@ To install a Python library from github link:
 For detecting edges in an image, use gradient orientation and magnitude.
 
 20160517
-In the mathematical context, [gradient](https://en.wikipedia.org/wiki/Gradient) measures the rate of change in a direction. In the edge detection contect, gradient magnitude compresses the gradient around a given pixel, representing a region with a high rate of change in white, and a low rate of change in black. If the rate of is large at a given location, it can be considered that there is an edge at that location.
+In the mathematical context, [gradient](https://en.wikipedia.org/wiki/Gradient) measures the rate of change in a direction. In the edge detection context, gradient magnitude compresses the gradient around a given pixel, representing a region with a high rate of change in white, and a low rate of change in black. If the rate of is large at a given location, it can be considered that there is an edge at that location.
 
 20160518
 For drawing scatter plot for categorical x values, use `ggplot.geom_jitter`. Example is [here](./R/geom_jitter.R).
