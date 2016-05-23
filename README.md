@@ -129,3 +129,6 @@ JSON understands double quotes only!
 
 20160520
 [`git reset --soft`](./github_tricks/reset.md) `git reset --soft <commit | HEAD~ # of commits upstream of HEAD to undo>` allows you to rewrite the git history without deleting changes you made in your working directory. If you choose the option `--hard`, it will remove any changes you introduced since the last commit.
+
+20160523
+For performing machine learning on image data (and speech data as well), artificial neural network is a good option. Artificial neural network often performs well with complex, and often imcomplete, data. There are two ways to train ANN: self-organizing ANN through training the model with a large amount of data, and back-propagation ANN in which a human teacher evaluates whether the model's answer is correct or not. This input is used as a feedback for the model.
