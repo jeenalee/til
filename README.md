@@ -132,3 +132,6 @@ JSON understands double quotes only!
 
 20160523
 For performing machine learning on image data (and speech data as well), artificial neural network is a good option. Artificial neural network often performs well with complex, and often imcomplete, data. There are two ways to train ANN: self-organizing ANN through training the model with a large amount of data, and back-propagation ANN in which a human teacher evaluates whether the model's answer is correct or not. This input is used as a feedback for the model.
+
+20160525
+When scraping the web, try [scrapy](http://scrapy.org/).
