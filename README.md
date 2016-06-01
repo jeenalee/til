@@ -135,3 +135,9 @@ For performing machine learning on image data (and speech data as well), artific
 
 20160525
 When scraping the web, try [scrapy](http://scrapy.org/).
+
+20160526
+[Work Stealing](https://en.wikipedia.org/wiki/Work_stealing): I learned about work stealing for the first time at Papers We Love meetup. The paper focused on the performance of [cyclic queue data structure](./papers/Chase_Lev_2005.pdf), and I found the general concept of work stealing interesting. It sounds like a grocery line problem -- how would the grocery store clerks design the lines so that every clerk is working about the same amount?
+
+20160527
+For handling text data with a wiki template, `mwparserfromhell` is a pretty handy python library.
