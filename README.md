@@ -141,3 +141,6 @@ When scraping the web, try [scrapy](http://scrapy.org/).
 
 20160527
 For handling text data with a wiki template, `mwparserfromhell` is a pretty handy python library.
+
+20160603
+When running a compiled scala code throws `java.lang.NoSuchMethodException`, try removing `import`, use `object` instead of `class`, or run the compiled code with the `$` at the end (for example, `scala fibonacci$` instead of `scala fibonacci`).
