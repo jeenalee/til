@@ -144,3 +144,6 @@ For handling text data with a wiki template, `mwparserfromhell` is a pretty hand
 
 20160603
 When running a compiled scala code throws `java.lang.NoSuchMethodException`, try removing `import`, use `object` instead of `class`, or run the compiled code with the `$` at the end (for example, `scala fibonacci$` instead of `scala fibonacci`).
+
+20160606
+[Linearizability](https://en.wikipedia.org/wiki/Linearizability) is a concept that in concurrent computing, if a system introduces a change, the change looks instantaneous to the rest of the systems. This can be achieved by [locks](https://en.wikipedia.org/wiki/Lock_%28computer_science%29) that ensures that only one thread can access the data (for reading or writing depending on the type). [This talk] (https://www.youtube.com/watch?v=QdkS6ZjeR7Q) by Kyle Kingsbury (@aphyr) was a helpful introduction.
