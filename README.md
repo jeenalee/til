@@ -147,3 +147,6 @@ When running a compiled scala code throws `java.lang.NoSuchMethodException`, try
 
 20160606
 [Linearizability](https://en.wikipedia.org/wiki/Linearizability) is a concept that in concurrent computing, if a system introduces a change, the change looks instantaneous to the rest of the systems. This can be achieved by [locks](https://en.wikipedia.org/wiki/Lock_%28computer_science%29) that ensures that only one thread can access the data (for reading or writing depending on the type). [This talk] (https://www.youtube.com/watch?v=QdkS6ZjeR7Q) by Kyle Kingsbury (@aphyr) was a helpful introduction.
+
+20160607
+[Serializability](https://en.wikipedia.org/wiki/Serializability) is a global property that ensures the same end result when a sequence of transactions takes place, regardless of the order of the transactions. On the other hand, linearizability is a local property of concurrent objects, for a single object or a single operation. A good overview of these two properties is [here](http://www.bailis.org/blog/linearizability-versus-serializability/).
