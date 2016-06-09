@@ -152,3 +152,6 @@ When running a compiled scala code throws `java.lang.NoSuchMethodException`, try
 [Serializability](https://en.wikipedia.org/wiki/Serializability) is a global property that ensures the same end result when a sequence of transactions takes place, regardless of the order of the transactions. On the other hand, linearizability is a local property of concurrent objects, for a single object or a single operation. A good overview of these two properties is [here](http://www.bailis.org/blog/linearizability-versus-serializability/).
 
 I also learned about [`git upstream`](./github_tricks/upstream.md) today.
+
+20160609
+I started learning [Rust](https://doc.rust-lang.org/book/README.html). I'm still going through the first few sections, but I learned that Rust's `Cargo` is like a compiler + `pip` + `virtualenv`.
