@@ -153,5 +153,8 @@ When running a compiled scala code throws `java.lang.NoSuchMethodException`, try
 
 I also learned about [`git upstream`](./github_tricks/upstream.md) today.
 
+20160608
+[How to split a directory on commandline] (./random/split_directory.sh)
+
 20160609
 I started learning [Rust](https://doc.rust-lang.org/book/README.html). I'm still going through the first few sections, but I learned that Rust's `Cargo` is like a compiler + `pip` + `virtualenv`.
