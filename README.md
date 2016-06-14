@@ -159,5 +159,8 @@ I also learned about [`git upstream`](./github_tricks/upstream.md) today.
 20160609
 I started learning [Rust](https://doc.rust-lang.org/book/README.html). I'm still going through the first few sections, but I learned that Rust's `Cargo` is like a compiler + `pip` + `virtualenv`.
 
+20160613
+I wrote a simple [guessing game](./rust/guessing_game) with Rust, following the [Rust tutorial](https://doc.rust-lang.org/book/guessing-game.html).
+
 20160614
 [Convolutional Neural Network] (https://en.wikipedia.org/wiki/Convolutional_neural_network) is atype of neural network algorithm that was inspired by how animals recognize an image. It involves convolution, in which the sample is broken down into many small "tiles" that overlap. The small tiles are fed into the same neural network, and the interesting results are pooled together to reduce dimensionality. One can repeat convolution and pooling many times to improve the network. [This](https://medium.com/@ageitgey/machine-learning-is-fun-part-3-deep-learning-and-convolutional-neural-networks-f40359318721#.1s0jjc4g5) was a very helpful overview of this algorithm.
