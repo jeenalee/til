@@ -164,3 +164,6 @@ I wrote a simple [guessing game](./rust/guessing_game) with Rust, following the 
 
 20160614
 [Convolutional Neural Network] (https://en.wikipedia.org/wiki/Convolutional_neural_network) is atype of neural network algorithm that was inspired by how animals recognize an image. It involves convolution, in which the sample is broken down into many small "tiles" that overlap. The small tiles are fed into the same neural network, and the interesting results are pooled together to reduce dimensionality. One can repeat convolution and pooling many times to improve the network. [This](https://medium.com/@ageitgey/machine-learning-is-fun-part-3-deep-learning-and-convolutional-neural-networks-f40359318721#.1s0jjc4g5) was a very helpful overview of this algorithm.
+
+20160616
+[Struct] (https://doc.rust-lang.org/book/structs.html) in Rust is a combination of data structure and type generator. I think of it as the `__init__` part of Python's class, but more powerful. I especially liked how it can be used to generate a customized type through [tuple structs](https://doc.rust-lang.org/book/structs.html#tuple-structs).
