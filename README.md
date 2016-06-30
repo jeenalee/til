@@ -167,3 +167,9 @@ I wrote a simple [guessing game](./rust/guessing_game) with Rust, following the 
 
 20160616
 [Struct] (https://doc.rust-lang.org/book/structs.html) in Rust is a combination of data structure and type generator. I think of it as the `__init__` part of Python's class, but more powerful. I especially liked how it can be used to generate a customized type through [tuple structs](https://doc.rust-lang.org/book/structs.html#tuple-structs).
+
+20160630
+To ignore a directory after it's been added to git (and committed), you have to remove it from its cache on top of adding it to `.gitignore`.
+```
+git rm -r --cached <directory>
+```
