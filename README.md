@@ -173,3 +173,9 @@ To ignore a directory after it's been added to git (and committed), you have to 
 ```
 git rm -r --cached <directory>
 ```
+
+20160701
+Today is the first day of Rails Girls Summer of Code! I learned about [Fetch API](https://fetch.spec.whatwg.org/#main-fetch). I also learned how the [web](https://rgsoc-jam.github.io/articles/2016-07/day01) works.
+
+20160705
+[How to sync fork on git](https://help.github.com/articles/syncing-a-fork/).
