@@ -179,3 +179,6 @@ Today is the first day of Rails Girls Summer of Code! I learned about [Fetch API
 
 20160705
 [How to sync fork on git](https://help.github.com/articles/syncing-a-fork/).
+
+20160706
+[How to add remote branches on git](./github_tricks/branches.md)
