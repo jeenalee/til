@@ -182,3 +182,21 @@ Today is the first day of Rails Girls Summer of Code! I learned about [Fetch API
 
 20160706
 [How to add remote branches on git](./github_tricks/branches.md)
+
+20160708
+A lot of time learning Rust ownership system. In Rust, only one thing can own a mutable reference, but many things can have immutable references to the thing. Dereferencing and destructuring is a tricky concept, but [this example](./rust/deref_destruct.rs) is helpful.
+
+20160711
+If adding a rust test file to a test package, make sure to update `lib.rs`.
+
+20160712
+- Defining macro in emacs: `C-x (` (define macro) `C-x )` `C-e` (execute macro)
+- For Boolean matching in Rust, use `&&`.
+- In Rust, if `Result` returns only an error, use `Result<(), Error>`.
+- To add crate dependencies in Rust, update `lib.rs` (`extern crate foo`) and `Cargo.toml` (`use foo="0.0.1"`).
+
+20160713
+[Deref](https://doc.rust-lang.org/book/deref-coercions.html) in Rust can result differently than what you expected. Check the documents!
+
+20160714
+[Some tips about `Result` and `match` in Rust](https://rgsoc-jam.github.io/articles/2016-07/putting-append-together)
