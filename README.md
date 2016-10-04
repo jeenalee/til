@@ -200,3 +200,6 @@ If adding a rust test file to a test package, make sure to update `lib.rs`.
 
 20160714
 [Some tips about `Result` and `match` in Rust](https://rgsoc-jam.github.io/articles/2016-07/putting-append-together)
+
+20161004
+For coordinates, it's pretty awesome to use complex numbers! Say current orientation is (1 + 0i). If you turn right, you multiply the position by `-i` (left is `i`). If you set that as a new position, you have made a step.
