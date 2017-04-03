@@ -175,7 +175,7 @@ git rm -r --cached <directory>
 ```
 
 20160701
-Today is the first day of Rails Girls Summer of Code! I learned about [Fetch API](https://fetch.spec.whatwg.org/#main-fetch). I also learned how the [web](https://rgsoc-jam.github.io/articles/2016-07/day01) works.
+Today is the first day of Rails Girls Summer of Code! I learned about [Fetch API](https://fetch.spec.whatwg.org/#main-fetch). I also learned how the [web](https://rgsoc-jam.github.io/articles/2016-07-01/day01) works.
 
 20160705
 [How to sync fork on git](https://help.github.com/articles/syncing-a-fork/).
@@ -199,7 +199,7 @@ If adding a rust test file to a test package, make sure to update `lib.rs`.
 [Deref](https://doc.rust-lang.org/book/deref-coercions.html) in Rust can result differently than what you expected. Check the documents!
 
 20160714
-[Some tips about `Result` and `match` in Rust](https://rgsoc-jam.github.io/articles/2016-07/putting-append-together)
+[Some tips about `Result` and `match` in Rust](https://rgsoc-jam.github.io/articles/2016-07-14/putting-append-together)
 
 20161004
 For coordinates, it's pretty awesome to use complex numbers! Say current orientation is (1 + 0i). If you turn right, you multiply the position by `-i` (left is `i`). If you set that as a new position, you have made a step.
