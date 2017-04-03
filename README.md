@@ -204,5 +204,8 @@ If adding a rust test file to a test package, make sure to update `lib.rs`.
 20161004
 For coordinates, it's pretty awesome to use complex numbers! Say current orientation is (1 + 0i). If you turn right, you multiply the position by `-i` (left is `i`). If you set that as a new position, you have made a step.
 
+20170330
+[How to use `rust-lldb`](./rust/rust-lldb.md) for debugging!
+
 20170403
 Emacs tip: For cleaning eshell, type `C-c M-o`.
